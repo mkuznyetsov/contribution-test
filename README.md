@@ -2,7 +2,7 @@
 
 - [What is DTO?](#what-is-dto)
 - [Prepare interfaces](#prepare-interfaces)
-- [Configure](#configure)
+- [Configure pom](#configure pom)
 - [Generating DTO](#generating-dto)
 - [How to use generated DTOs](#how-to-use-generated-dtos)
 - [Method chaining](#method-chaining)
@@ -35,7 +35,7 @@ public interface Item {
 }
 ```
 
-## Configure
+## Configure pom
 
 Next, plugins section in pom.xml should be properly configured.
 

@@ -2,11 +2,11 @@
 
 - [What is DTO?](#what-is-dto)
 - [Prepare interfaces](#prepare-interfaces)
-- [Configure pom.xml](#configure-pom.xml)
+- [Configure pom.xml](#configure-pom-xml)
 - [Generating DTO](#generating-dto)
 - [How to use generated DTOs](#how-to-use-generated-dtos)
 - [Method chaining](#method-chaining)
-- [Delegate DTO methods' call](#delegate-dto-methods`-call)
+- [Delegate DTO methods' call](#delegate-dto-methods-call)
 
 
 ## What is DTO?

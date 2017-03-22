@@ -5,7 +5,7 @@
 [Configure pom.xml]
 [Generating DTO]
 [How to use generated DTOs]
-[Method chaining](#Method-chaining)
+[Method chaining](#method-chaining)
 [Delegate DTO methods' call]
 
 ### What is DTO?

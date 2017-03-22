@@ -34,6 +34,7 @@ public interface Item {
     void setHidden(boolean hidden);
 }
 ```
+
 ## Configure pom.xml
 
 Next, plugins section in pom.xml should be properly configured.

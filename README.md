@@ -15,11 +15,11 @@
 [Delegate DTO methods' call](#delegate-dto-methods`-call)
 
 
-### What is DTO?
+## What is DTO?
 
 DTO (Data transfer object) - is an object to exchange data with the client and server. DTOs are responsible for serializing themselves into JSON and vise versa (deserializing raw data into DTO).
 
-### Prepare interfaces
+## Prepare interfaces
 
 First, prepare interfaces, that must contains get-methods at least. Mark these interfaces with the org.eclipse.che.dto.shared.DTO annotation.
 Possible names for getter-methods are:
@@ -40,7 +40,7 @@ public interface Item {
     void setHidden(boolean hidden);
 }
 ```
-### Configure pom.xml
+## Configure pom.xml
 
 Next, plugins section in pom.xml should be properly configured.
 
@@ -273,7 +273,7 @@ The following pom.xml snippet demonstrates how you can generate both types of DT
 
 Make sure that the directory with generated client-side DTOs is included in classpath resources.
 
-### Generating DTO
+## Generating DTO
 
 In order to generate DTOs, you should just build your project with Maven:
 ```
@@ -325,7 +325,7 @@ public class MyPresenter {
 }
 ```
 
-### Method chaining
+## Method chaining
 
 Additionally to getters and setters with are required for DTO, generator adds method DTO *withXXX(T value)*. Such method do the same as setter but it returns this. It makes possible to use chaining.
 Instead of:
@@ -377,7 +377,7 @@ public interface MyJob {
      MyJob withError(String error);
 }
 ```
-### Delegate DTO methods' call
+## Delegate DTO methods' call
 
 In some case we may need more then just getters and setters in DTO, but there is no common mechanism to generate such implementation for DTO interface. In this case *org.eclipse.che.dto.shared.DelegateTo* annotation may help. DTO interface bellow contains getters, setters and with methods and one more complex method for getting full name of user.
 

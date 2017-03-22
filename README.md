@@ -1,6 +1,6 @@
 # DTO
 
-[What is DTO?](#What-is-DTO?)
+[What is DTO?](###What-is-DTO?)
 [Prepare interfaces]
 [Configure pom.xml]
 [Generating DTO]

@@ -2,7 +2,7 @@
 
 - [What is DTO?](#what-is-dto)
 - [Prepare interfaces](#prepare-interfaces)
-- [Configure](#configure)
+- [Configure2](#configure2)
 - [Generating DTO](#generating-dto)
 - [How to use generated DTOs](#how-to-use-generated-dtos)
 - [Method chaining](#method-chaining)
